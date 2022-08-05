@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+    letter-spacing: 3px;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+html{
+    font-size: 10px;
+}
+
+body{   
+
+    background: #614385;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;   
+}
+
+.section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1{
+    font-size: 2.7rem;
+    color: white;
+    margin: 0 auto; 
+    letter-spacing: .15em;
+}
+
+span{
+    font-weight: 200;
+    font-size: 2.1rem;
+    color: rgb(253, 250, 51);
+}
+
+
+p{
+    font-size: 20px;
+}
+
+
+.social a{
+    color: inherit;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    color: white;
+
+}
+
+a:hover{
+    color: rgb(253, 250, 51);
+}
+
+
+.social a{
+    font-size: 2.5rem;
+}
+
+.section-a{
+    margin: 2rem;
+}
+
+img{
+    width: 20rem;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+@media only screen and (min-width: 1000px) {
+    
+     html{
+        font-size: 14px;
+     }
+
+    .container-wrapper{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
